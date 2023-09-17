@@ -1,0 +1,76 @@
+
+.Sectoin6{
+    min-height: 60vh;
+    background-color: #000000;
+}
+.Sectoin6 h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 25px 0px 40px 0px;
+}
+.data p{
+    font-size: 23px;
+    font-weight: 500;
+    color: rgb(236, 236, 236);
+}
+
+span{
+    color: #d8695a;
+    font-size: 25px;
+}
+form{
+    padding: 10px 5px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 30px 10px;
+    flex-wrap: wrap;
+}
+form input[type="text"],input[type="email"]{
+    height: 50px;
+    background-color: black;
+    border:2px solid #d8695a;
+    border-radius: 50px;
+    font-size: 23px;
+    color: white;
+    padding-left: 10px;
+}
+form textarea{
+    display: grid;
+    height: 80px;
+    grid-column: 1/span 2;
+    background-color: black;
+    border:2px solid #d8695a;
+    border-radius: 50px;
+    font-size: 23px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+textarea::-webkit-scrollbar{
+    display: none;
+}
+form input[type="submit"]{
+    background-color:  #5f312c;
+    color: white;
+    font-weight: 600px;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    transition: ease 1s;
+}
+form input[type="submit"]:hover{
+    filter: brightness(150%);
+}
+
+form ::placeholder{
+    font-size: 20px;
+    color: white;
+}
+@media only screen and (max-width:768px) {
+    .Contact{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
